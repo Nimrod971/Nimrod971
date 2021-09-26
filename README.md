@@ -5,13 +5,13 @@
 - 🌱 I’m currently learning in at ESIEA Paris.
 - 💞️ I’m looking to collaborate on IT or commercial sector .
 - 📫 How to reach me ? 
-Linknd: 
+  - Linknd: 
 www.linkedin.com/in/nimrod-ndoudi
-Instagram: 
+  - Instagram: 
 https://www.instagram.com/nimrod_971/
-Facebook: 
+  - Facebook: 
 https://www.facebook.com/nimrod.nn7
-Contact: 
+  - Contact: 
 📧 ndoudi@et.esiea.fr
 <!---
 Nimrod971/Nimrod971 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
