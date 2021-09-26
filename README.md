@@ -4,7 +4,12 @@
 ---> 
 - 🌱 I’m currently learning in at ESIEA Paris.
 - 💞️ I’m looking to collaborate on IT or commercial sector .
+
+As you can see on my [Linknd](https://www.linkedin.com/in/nimrod-ndoudi), I realize some projects in differents sectors in my life.
+Here, you can find much of my IT projects.
+Don't hesitate to contact me if you want more information about them.
 - 📫 How to reach me ? 
+
   - Linknd: 
 www.linkedin.com/in/nimrod-ndoudi
   - Instagram: 
