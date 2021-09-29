@@ -9,4 +9,4 @@ Mais attention si vous perdez... une bombe risque de TOUT ETEINDRE X).
 
 
 
-Copyright © by NDOUDI Nimrod
+Copyright © by NDOUDI Nimrod ✌️✌️
