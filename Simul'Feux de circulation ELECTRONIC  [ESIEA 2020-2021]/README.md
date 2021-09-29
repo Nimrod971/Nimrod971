@@ -6,4 +6,4 @@ Nous avons poussons notre étude plus loin en y ajoutant des écrans LCDs ainsi 
 
 LISEZ LE RAPPORT PDF AINSI QUE LA DOCUMENTATION.
 
-Copyright © by Kobeisi BESSEL & NDOUDI Nimrod
+Copyright © by Kobeisi BESSEL & NDOUDI Nimrod ✌️✌️
