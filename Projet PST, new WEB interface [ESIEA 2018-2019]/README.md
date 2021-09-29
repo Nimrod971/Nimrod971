@@ -16,4 +16,4 @@ Utilsez la base de données en créant ou connectant un compte (nom <==> mdp) à
 
 Nous vous remercions des retours et commentaires que vous pouvez nous apporter.
 
-Copyright © by Jérémy Tourari & Elise LLEDO & Elias Charafi & Félix Lim & Nimrod NDOUDI. 
+Copyright © by Jérémy Tourari & Elise LLEDO & Elias Charafi & Félix Lim & Nimrod NDOUDI. ✌️✌️
