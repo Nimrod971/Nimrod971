@@ -12,4 +12,4 @@ Pour démarrer le jeu : ./MAIN
 
 
 Nous vous remercions de votre participation au jeu PICROSS GAME.
-Copyright © by Thierry KHAMPHOUSONE & Nimrod NDOUDI. 
+Copyright © by Thierry KHAMPHOUSONE & Nimrod NDOUDI. ✌️✌️
