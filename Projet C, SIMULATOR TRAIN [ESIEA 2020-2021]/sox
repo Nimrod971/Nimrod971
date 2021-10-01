@@ -1,0 +1,30 @@
+apt 2.0.2ubuntu0.1 (amd64)
+Usage : apt [options] commande
+
+apt est un outil en ligne de commande pour gérer les paquets.
+Il fournit des commandes pour chercher et gérer autant que pour
+rechercher des informations à propos des paquets. Il fournit les mêmes
+fonctions que les outils APT spécialisés, tels qu'apt-get et apt-cache,
+mais dispose d'options plus adaptées pour une utilisation interactive.
+
+Commandes les plus utilisées :
+  list - liste les paquets selon leur nom
+  search - cherche dans les descriptions de paquet
+  show - affiche les détails du paquet
+  install - installes les paquets
+  reinstall - réinstaller les paquets
+  remove - supprime des paquets
+  autoremove - Supprime automatiquement les dépendances inutilisées
+  update - met à jour la liste des paquets disponibles
+  upgrade - met à jour le système en installant/mettant à jour les paquets
+  full-upgrade - met à jour le système en supprimant/installant/mettant à jour les paquets
+  edit-sources - édite le fichier d'information source
+  satisfy - satisfaire les chaînes de dépendance
+
+Veuillez vous référer à apt(8) pour plus d'information à propos des commandes disponibles.
+Les options de configuration ainsi que la syntaxe sont détaillées dans apt.conf(5).
+Des informations sur la configuration des sources sont disponibles dans sources.list(5).
+Les choix de paquet ainsi que la version peuvent être renseignés grâce à apt_preferences(5).
+Les informations à propos de la sécurité sont disponibles dans apt-secure(8).
+
+                                Cet APT a les « Super Cow Powers »
