@@ -1,0 +1,29 @@
+@font-face {
+	font-family: "Poppins";
+	src: url('Poppins/Poppins-Regular.ttf');
+}
+
+@font-face {
+	font-family: "Poppins-Light";
+	src: url('Poppins/Poppins-Light.ttf');
+}
+
+@font-face {
+	font-family: "Poppins-Thin";
+	src: url('Poppins/Poppins-Thin.ttf');
+}
+
+@font-face {
+	font-family: "Montserrat";
+	src: url('Montserrat/Montserrat-Regular.ttf');
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url('Lato/Lato-Regular.ttf');
+}
+
+@font-face {
+	font-family: "Lato-Light";
+	src: url('Lato/Lato-Light.ttf');
+}
