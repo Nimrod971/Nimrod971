@@ -1,0 +1,93 @@
+/*
+	OpenESIEA specific
+*/
+
+body {
+	text-align: center;
+}
+#front-openesiea-logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 1em;
+	max-width: 100%;
+}
+.contact {
+	text-align: left;
+}
+.contact > .icon {
+	display: inline-block;
+	margin: 1em;
+}
+
+.team {
+	text-align: right;
+	font-style: italic;
+	margin-top: auto;
+}
+
+#header {
+	display: grid;
+  grid-template-columns: 40% 10% 40%;
+	align-items: start;
+	justify-content: space-between;
+}
+#header > div {
+	height: inherit;
+}
+
+#header-title {
+	border: none;
+	height: inherit;
+}
+#header-title img {
+	height: inherit;
+	padding: 2%;
+}
+
+@media screen and (max-width: 905px) {
+	#header-buttons {
+		visibility: hidden;
+	}
+}
+
+#esiea-logo, #esiea-logo > img {
+	width:30% !important;
+	min-width:350px;
+	margin-left:auto;
+}
+
+#section-projects article, #section-projects2 article {
+	display: flex;
+	align-items: right;
+	flex-direction: column;
+	background-color: #252733;
+	background-repeat: no-repeat;
+	background-size: 20%;
+	background-position: bottom .5em left .5em;
+}
+article.pst-cyber {
+	background-image: url("../images/pst-cyber.svg");
+	border-bottom: 5px solid #f06;
+}
+article.pst-es {
+	background-image: url("../images/pst-es.svg");
+	border-bottom: 5px solid #d60;
+}
+article.pst-it {
+	background-image: url("../images/pst-it.svg");
+	border-bottom: 5px solid #0cc;
+}
+article.pst-vr {
+	background-image: url("../images/pst-vr.svg");
+	border-bottom: 5px solid #a0f;
+}
+
+.pst-no {
+	margin: 0;
+	opacity: .75;
+}
+
+.features article .image {
+	margin-bottom: .75em;
+}
