@@ -1,0 +1,435 @@
+2021-02-14 14:49:14 INFO  SimpleClient:31 - text sent to the server: send me the list of available commands!
+2021-02-14 14:49:14 INFO  SimpleClient:35 - Type h for available commands
+2021-02-14 14:49:18 INFO  SimpleClient:482 - connexion killed with server 
+2021-02-14 14:49:18 INFO  ServerThread:47 - server received a choice:
+2021-02-14 14:49:18 INFO  ServerThread:369 - kill connexion
+2021-02-14 14:51:17 INFO  SimpleClient:31 - text sent to the server: send me the list of available commands!
+2021-02-14 14:51:17 INFO  SimpleClient:35 - Type h for available commands
+2021-02-14 14:51:25 INFO  ServerThread:47 - server received a choice:h
+2021-02-14 14:51:31 INFO  SimpleClient:482 - connexion killed with server 
+2021-02-14 14:51:31 INFO  ServerThread:369 - kill connexion
+2021-02-14 14:51:44 INFO  SimpleClient:31 - text sent to the server: send me the list of available commands!
+2021-02-14 14:51:44 INFO  SimpleClient:35 - Type h for available commands
+2021-02-14 14:52:17 INFO  ServerThread:47 - server received a choice:t
+2021-02-14 14:52:25 ERROR ServerThread:78 - No album found with the requested title No album with this title in the MusicHub!
+2021-02-14 14:52:25 ERROR ServerThread:350 - Server exception: Connection reset
+2021-02-15 05:09:52 INFO  SimpleClient:31 - text sent to the server: send me the list of available commands!
+2021-02-15 05:09:52 INFO  SimpleClient:35 - Type h for available commands
+2021-02-15 05:10:09 INFO  ServerThread:47 - server received a choice:d
+2021-02-15 05:10:13 ERROR ServerThread:93 - No album found with the requested title No album with this title in the MusicHub!
+2021-02-15 05:10:13 ERROR SimpleClient:112 - No album found with the requested title 
+2021-02-15 05:10:13 INFO  ServerThread:95 - List of songs is sent successfully
+2021-02-15 05:10:13 INFO  SimpleClient:501 - connexion killed with server 
+2021-02-15 05:10:13 ERROR ServerThread:350 - Server exception: Broken pipe (Write failed)
+2021-02-15 05:10:13 ERROR ServerThread:359 - Broken pipe (Write failed)
+2021-02-15 05:11:15 INFO  SimpleClient:31 - text sent to the server: send me the list of available commands!
+2021-02-15 05:11:15 INFO  SimpleClient:35 - Type h for available commands
+2021-02-15 05:11:41 INFO  ServerThread:47 - server received a choice:u
+2021-02-15 05:11:41 INFO  ServerThread:103 - List of audiobooks ordered by author is sent successfully
+2021-02-15 05:12:15 ERROR ServerThread:161 - For input string: "jkjh"
+2021-02-15 05:12:39 ERROR ServerThread:350 - Server exception: Broken pipe (Write failed)
+2021-02-15 05:12:39 ERROR ServerThread:359 - Broken pipe (Write failed)
+2021-02-15 05:47:47 INFO  SimpleClient:31 - text sent to the server: send me the list of available commands!
+2021-02-15 05:47:47 INFO  SimpleClient:35 - Type h for available commands
+2021-02-15 05:47:53 INFO  ServerThread:47 - server received a choice:c
+2021-02-15 05:48:04 ERROR ServerThread:161 - For input string: "hkl"
+2021-02-15 05:49:32 ERROR ServerThread:189 - 
+2021-02-15 05:49:32 ERROR ServerThread:350 - Server exception: Broken pipe (Write failed)
+2021-02-15 05:49:32 ERROR ServerThread:359 - Broken pipe (Write failed)
+2021-02-15 06:02:50 INFO  SimpleClient:31 - text sent to the server: send me the list of available commands!
+2021-02-15 06:02:50 INFO  SimpleClient:35 - Type h for available commands
+2021-02-15 06:02:55 INFO  ServerThread:47 - server received a choice:c
+2021-02-15 06:03:11 ERROR ServerThread:161 - For input string: "hjk"
+2021-02-15 06:03:33 ERROR ServerThread:189 - 
+2021-02-15 06:03:33 ERROR ServerThread:350 - Server exception: Broken pipe (Write failed)
+2021-02-15 06:03:33 ERROR ServerThread:359 - Broken pipe (Write failed)
+2021-02-15 06:05:07 INFO  SimpleClient:31 - text sent to the server: send me the list of available commands!
+2021-02-15 06:05:07 INFO  SimpleClient:35 - Type h for available commands
+2021-02-15 06:05:12 ERROR ServerThread:350 - Server exception: null
+2021-02-15 06:06:10 INFO  SimpleClient:31 - text sent to the server: send me the list of available commands!
+2021-02-15 06:06:10 INFO  SimpleClient:35 - Type h for available commands
+2021-02-15 06:06:15 INFO  ServerThread:47 - server received a choice:c
+2021-02-15 06:07:25 ERROR ServerThread:161 - For input string: "vcbcvbc"
+2021-02-15 06:13:30 INFO  SimpleClient:31 - text sent to the server: send me the list of available commands!
+2021-02-15 06:13:30 INFO  SimpleClient:35 - Type h for available commands
+2021-02-15 06:13:34 INFO  ServerThread:47 - server received a choice:c
+2021-02-15 06:13:42 ERROR ServerThread:161 - For input string: "hgjhgj"
+2021-02-15 06:13:42 ERROR SimpleClient:209 - error when creating the song 
+2021-02-15 06:13:42 INFO  SimpleClient:509 - connexion killed with server 
+2021-02-15 06:13:42 ERROR ServerThread:350 - Server exception: Broken pipe (Write failed)
+2021-02-15 06:13:42 ERROR ServerThread:359 - Broken pipe (Write failed)
+2021-02-15 06:14:01 INFO  SimpleClient:31 - text sent to the server: send me the list of available commands!
+2021-02-15 06:14:01 INFO  SimpleClient:35 - Type h for available commands
+2021-02-15 06:14:04 INFO  ServerThread:47 - server received a choice:c
+2021-02-15 06:15:39 INFO  SimpleClient:31 - text sent to the server: send me the list of available commands!
+2021-02-15 06:15:39 INFO  SimpleClient:35 - Type h for available commands
+2021-02-15 06:15:43 INFO  ServerThread:47 - server received a choice:c
+2021-02-15 07:26:00 INFO  SimpleClient:31 - text sent to the server: send me the list of available commands!
+2021-02-15 07:26:00 INFO  SimpleClient:35 - Type h for available commands
+2021-02-15 07:26:04 INFO  ServerThread:47 - server received a choice:c
+2021-02-15 07:26:20 INFO  ServerThread:155 - Song created successfully
+2021-02-15 07:26:20 ERROR ServerThread:161 - Broken pipe (Write failed)
+2021-02-15 07:26:20 ERROR ServerThread:189 - 
+2021-02-15 07:26:20 ERROR ServerThread:350 - Server exception: Broken pipe (Write failed)
+2021-02-15 07:26:20 ERROR ServerThread:359 - Broken pipe (Write failed)
+2021-02-15 07:27:52 INFO  SimpleClient:31 - text sent to the server: send me the list of available commands!
+2021-02-15 07:27:52 INFO  SimpleClient:35 - Type h for available commands
+2021-02-15 07:27:56 INFO  ServerThread:47 - server received a choice:c
+2021-02-15 07:28:09 INFO  ServerThread:155 - Song created successfully
+2021-02-15 07:28:36 ERROR ServerThread:350 - Server exception: Connection reset
+2021-02-19 20:00:03 INFO  SimpleClient:31 - text sent to the server: send me the list of available commands!
+2021-02-19 20:00:03 INFO  SimpleClient:35 - Type h for available commands
+2021-02-19 20:00:11 INFO  SimpleClient:513 - connexion killed with server 
+2021-02-19 20:00:11 INFO  ServerThread:47 - server received a choice:x
+2021-02-19 20:00:11 INFO  ServerThread:369 - kill connexion
+2021-02-21 11:13:06 INFO  SimpleClient:31 - text sent to the server: send me the list of available commands!
+2021-02-21 11:13:06 INFO  SimpleClient:35 - Type h for available commands
+2021-02-21 11:13:28 INFO  ServerThread:47 - server received a choice:d
+2021-02-21 11:13:31 ERROR SimpleClient:112 - No album found with the requested title 
+2021-02-21 11:13:31 ERROR ServerThread:93 - No album found with the requested title No album with this title in the MusicHub!
+2021-02-21 11:13:31 INFO  ServerThread:95 - List of songs is sent successfully
+2021-02-21 11:13:31 INFO  SimpleClient:513 - connexion killed with server 
+2021-02-21 11:13:31 ERROR ServerThread:350 - Server exception: Broken pipe (Write failed)
+2021-02-21 11:13:31 ERROR ServerThread:359 - Broken pipe (Write failed)
+2021-02-21 11:14:42 INFO  SimpleClient:31 - text sent to the server: send me the list of available commands!
+2021-02-21 11:14:42 INFO  SimpleClient:35 - Type h for available commands
+2021-02-21 11:14:49 INFO  ServerThread:47 - server received a choice:u
+2021-02-21 11:14:50 INFO  ServerThread:103 - List of audiobooks ordered by author is sent successfully
+2021-02-21 11:15:33 ERROR ServerThread:350 - Server exception: null
+2021-02-21 11:23:13 INFO  SimpleClient:31 - text sent to the server: send me the list of available commands!
+2021-02-21 11:23:13 INFO  SimpleClient:35 - Type h for available commands
+2021-02-21 11:23:16 INFO  ServerThread:47 - server received a choice:g
+2021-02-21 11:23:20 ERROR ServerThread:350 - Server exception: Connection reset
+2021-02-21 11:28:18 INFO  SimpleClient:31 - text sent to the server: send me the list of available commands!
+2021-02-21 11:28:18 INFO  SimpleClient:35 - Type h for available commands
+2021-02-21 11:28:28 INFO  ServerThread:47 - server received a choice:t
+2021-02-21 11:28:41 ERROR ServerThread:351 - Server exception: Connection reset
+2021-02-21 11:31:15 INFO  SimpleClient:31 - text sent to the server: send me the list of available commands!
+2021-02-21 11:31:15 INFO  SimpleClient:35 - Type h for available commands
+2021-02-21 11:31:18 INFO  ServerThread:47 - server received a choice:g
+2021-02-21 11:31:25 ERROR ServerThread:351 - Server exception: Connection reset
+2021-02-21 11:33:06 INFO  SimpleClient:31 - text sent to the server: send me the list of available commands!
+2021-02-21 11:33:06 INFO  SimpleClient:35 - Type h for available commands
+2021-02-21 11:33:18 INFO  ServerThread:47 - server received a choice:g
+2021-02-21 11:36:04 INFO  SimpleClient:31 - text sent to the server: send me the list of available commands!
+2021-02-21 11:36:04 INFO  SimpleClient:35 - Type h for available commands
+2021-02-21 11:36:15 INFO  ServerThread:47 - server received a choice:t
+2021-02-21 11:36:49 ERROR ServerThread:79 - No album found with the requested title No album with this title in the MusicHub!
+2021-02-21 11:36:49 ERROR ServerThread:352 - Server exception: Connection reset
+2021-02-21 11:41:59 INFO  SimpleClient:31 - text sent to the server: send me the list of available commands!
+2021-02-21 11:41:59 INFO  SimpleClient:35 - Type h for available commands
+2021-02-21 11:42:06 INFO  ServerThread:47 - server received a choice:g
+2021-02-21 11:45:22 ERROR ServerThread:79 - No album found with the requested title No album with this title in the MusicHub!
+2021-02-21 11:46:09 ERROR ServerThread:352 - Server exception: Broken pipe (Write failed)
+2021-02-21 11:46:09 ERROR ServerThread:361 - Broken pipe (Write failed)
+2021-02-21 11:47:24 INFO  SimpleClient:31 - text sent to the server: send me the list of available commands!
+2021-02-21 11:47:24 INFO  SimpleClient:35 - Type h for available commands
+2021-02-21 11:48:26 INFO  ServerThread:47 - server received a choice:t
+2021-02-21 11:48:49 ERROR ServerThread:79 - No album found with the requested title No album with this title in the MusicHub!
+2021-02-21 11:48:49 INFO  ServerThread:372 - kill connexion
+2021-02-21 11:54:20 INFO  SimpleClient:31 - text sent to the server: send me the list of available commands!
+2021-02-21 11:54:20 INFO  SimpleClient:35 - Type h for available commands
+2021-02-21 11:54:22 INFO  ServerThread:47 - server received a choice:g
+2021-02-21 11:54:25 ERROR ServerThread:81 - No album found with the requested title No album with this title in the MusicHub!
+2021-02-21 11:54:25 INFO  ServerThread:374 - kill connexion
+2021-02-21 11:54:25 ERROR SimpleClient:86 - No album found with the requested title 
+2021-02-21 11:54:25 INFO  SimpleClient:514 - connexion killed with server 
+2021-02-21 11:55:38 INFO  SimpleClient:31 - text sent to the server: send me the list of available commands!
+2021-02-21 11:55:38 INFO  SimpleClient:35 - Type h for available commands
+2021-02-21 11:55:44 INFO  ServerThread:47 - server received a choice:t
+2021-02-21 11:55:56 ERROR ServerThread:81 - No album found with the requested title No album with this title in the MusicHub!
+2021-02-21 11:55:56 ERROR SimpleClient:86 - No album found with the requested title 
+2021-02-21 11:55:56 INFO  SimpleClient:514 - connexion killed with server 
+2021-02-21 11:55:56 INFO  ServerThread:374 - kill connexion
+2021-02-21 12:08:37 INFO  SimpleClient:31 - text sent to the server: send me the list of available commands!
+2021-02-21 12:08:37 INFO  SimpleClient:35 - Type h for available commands
+2021-02-21 12:08:41 INFO  ServerThread:47 - server received a choice:t
+2021-02-21 12:09:05 INFO  ServerThread:102 - List of songs is sent successfully
+2021-02-21 12:09:29 ERROR ServerThread:100 - No album found with the requested title No album with this title in the MusicHub!
+2021-02-21 12:09:29 INFO  ServerThread:102 - List of songs is sent successfully
+2021-02-21 12:09:29 ERROR SimpleClient:114 - No album found with the requested title 
+2021-02-21 12:09:29 INFO  SimpleClient:515 - connexion killed with server 
+2021-02-21 12:09:29 ERROR ServerThread:357 - Server exception: Connection reset
+2021-02-21 12:10:39 INFO  SimpleClient:31 - text sent to the server: send me the list of available commands!
+2021-02-21 12:10:39 INFO  SimpleClient:35 - Type h for available commands
+2021-02-21 12:14:25 INFO  ServerThread:47 - server received a choice:g
+2021-02-21 12:14:27 ERROR ServerThread:81 - No album found with the requested title No album with this title in the MusicHub!
+2021-02-21 12:14:27 ERROR SimpleClient:86 - No album found with the requested title 
+2021-02-21 12:14:27 INFO  SimpleClient:515 - connexion killed with server 
+2021-02-21 12:14:27 ERROR ServerThread:357 - Server exception: Broken pipe (Write failed)
+2021-02-21 12:14:27 ERROR ServerThread:366 - Broken pipe (Write failed)
+2021-02-21 12:14:36 INFO  SimpleClient:31 - text sent to the server: send me the list of available commands!
+2021-02-21 12:14:36 INFO  SimpleClient:35 - Type h for available commands
+2021-02-21 12:18:23 INFO  SimpleClient:31 - text sent to the server: send me the list of available commands!
+2021-02-21 12:18:23 INFO  SimpleClient:35 - Type h for available commands
+2021-02-21 12:18:28 INFO  ServerThread:47 - server received a choice:t
+2021-02-21 12:18:28 INFO  ServerThread:65 - List of albums is sent successfully
+2021-02-21 12:18:36 INFO  ServerThread:115 - List of audiobooks ordered by author is sent successfully
+2021-02-21 12:18:56 INFO  ServerThread:107 - List of songs is sent successfully
+2021-02-21 12:19:07 ERROR ServerThread:104 - No album found with the requested title No album with this title in the MusicHub!
+2021-02-21 12:19:07 ERROR SimpleClient:114 - No album found with the requested title 
+2021-02-21 12:19:07 INFO  ServerThread:107 - List of songs is sent successfully
+2021-02-21 12:19:07 INFO  SimpleClient:515 - connexion killed with server 
+2021-02-21 12:19:07 ERROR ServerThread:362 - Server exception: Broken pipe (Write failed)
+2021-02-21 12:19:07 ERROR ServerThread:371 - Broken pipe (Write failed)
+2021-02-21 12:19:25 INFO  SimpleClient:31 - text sent to the server: send me the list of available commands!
+2021-02-21 12:19:26 INFO  SimpleClient:35 - Type h for available commands
+2021-02-21 12:19:41 INFO  ServerThread:47 - server received a choice:d
+2021-02-21 12:19:46 ERROR ServerThread:104 - No album found with the requested title No album with this title in the MusicHub!
+2021-02-21 12:19:46 ERROR SimpleClient:114 - No album found with the requested title 
+2021-02-21 12:19:46 INFO  ServerThread:107 - List of songs is sent successfully
+2021-02-21 12:19:46 INFO  SimpleClient:515 - connexion killed with server 
+2021-02-21 12:19:46 ERROR ServerThread:362 - Server exception: Broken pipe (Write failed)
+2021-02-21 12:19:46 ERROR ServerThread:371 - Broken pipe (Write failed)
+2021-02-21 12:19:53 INFO  SimpleClient:31 - text sent to the server: send me the list of available commands!
+2021-02-21 12:19:53 INFO  SimpleClient:35 - Type h for available commands
+2021-02-21 12:20:01 INFO  ServerThread:47 - server received a choice:g
+2021-02-21 12:20:05 INFO  ServerThread:86 - List of songs is sent successfully
+2021-02-21 12:20:13 ERROR SimpleClient:86 - No album found with the requested title 
+2021-02-21 12:20:13 INFO  SimpleClient:515 - connexion killed with server 
+2021-02-21 12:20:13 ERROR ServerThread:83 - No album found with the requested title No album with this title in the MusicHub!
+2021-02-21 12:20:13 INFO  ServerThread:86 - List of songs is sent successfully
+2021-02-21 12:20:13 ERROR ServerThread:362 - Server exception: Broken pipe (Write failed)
+2021-02-21 12:20:13 ERROR ServerThread:371 - Broken pipe (Write failed)
+2021-02-21 12:20:20 INFO  SimpleClient:31 - text sent to the server: send me the list of available commands!
+2021-02-21 12:20:21 INFO  SimpleClient:35 - Type h for available commands
+2021-02-21 12:20:24 INFO  ServerThread:47 - server received a choice:t
+2021-02-21 12:20:24 INFO  ServerThread:65 - List of albums is sent successfully
+2021-02-21 12:20:31 INFO  ServerThread:115 - List of audiobooks ordered by author is sent successfully
+2021-02-21 12:42:00 INFO  SimpleClient:31 - text sent to the server: send me the list of available commands!
+2021-02-21 12:42:00 INFO  SimpleClient:35 - Type h for available commands
+2021-02-21 12:42:13 INFO  ServerThread:47 - server received a choice:u
+2021-02-21 12:42:13 INFO  ServerThread:115 - List of audiobooks ordered by author is sent successfully
+2021-02-21 12:42:37 ERROR ServerThread:144 - No Song found with the requested title 
+2021-02-21 12:42:37 ERROR SimpleClient:167 - No Song found with the requested title 
+2021-02-21 12:42:37 INFO  SimpleClient:517 - connexion killed with server 
+2021-02-21 12:42:37 ERROR ServerThread:370 - Server exception: Connection reset
+2021-02-21 12:42:47 INFO  SimpleClient:31 - text sent to the server: send me the list of available commands!
+2021-02-21 12:42:47 INFO  SimpleClient:35 - Type h for available commands
+2021-02-21 12:42:51 INFO  ServerThread:47 - server received a choice:f
+2021-02-21 12:43:18 ERROR ServerThread:144 - No Song found with the requested title 
+2021-02-21 12:43:18 ERROR SimpleClient:167 - No Song found with the requested title 
+2021-02-21 12:43:18 INFO  SimpleClient:517 - connexion killed with server 
+2021-02-21 12:43:18 ERROR ServerThread:370 - Server exception: Connection reset
+2021-02-21 12:44:15 INFO  SimpleClient:31 - text sent to the server: send me the list of available commands!
+2021-02-21 12:44:15 INFO  SimpleClient:35 - Type h for available commands
+2021-02-21 12:44:20 INFO  ServerThread:47 - server received a choice:f
+2021-02-21 12:44:37 ERROR ServerThread:144 - No Song found with the requested title 
+2021-02-21 12:44:37 ERROR SimpleClient:167 - No Song found with the requested title 
+2021-02-21 12:44:37 INFO  SimpleClient:517 - connexion killed with server 
+2021-02-21 12:44:37 ERROR ServerThread:370 - Server exception: null
+2021-02-21 12:46:23 INFO  SimpleClient:31 - text sent to the server: send me the list of available commands!
+2021-02-21 12:46:23 INFO  SimpleClient:35 - Type h for available commands
+2021-02-21 12:46:26 INFO  ServerThread:47 - server received a choice:f
+2021-02-21 12:46:43 ERROR ServerThread:144 - No Song found with the requested title 
+2021-02-21 12:46:43 ERROR SimpleClient:167 - No Song found with the requested title 
+2021-02-21 12:46:43 INFO  SimpleClient:517 - connexion killed with server 
+2021-02-21 12:46:43 ERROR ServerThread:370 - Server exception: Connection reset
+2021-02-21 12:47:17 INFO  SimpleClient:31 - text sent to the server: send me the list of available commands!
+2021-02-21 12:47:17 INFO  SimpleClient:35 - Type h for available commands
+2021-02-21 12:47:22 INFO  ServerThread:47 - server received a choice:g
+2021-02-21 12:47:26 INFO  ServerThread:86 - List of songs is sent successfully
+2021-02-21 13:19:04 INFO  SimpleClient:31 - text sent to the server: send me the list of available commands!
+2021-02-21 13:19:04 INFO  SimpleClient:35 - Type h for available commands
+2021-02-21 13:19:13 INFO  ServerThread:47 - server received a choice:f
+2021-02-21 13:19:13 ERROR SimpleClient:155 - No album found with the requested title 
+2021-02-21 13:19:13 INFO  SimpleClient:517 - connexion killed with server 
+2021-02-21 13:19:13 ERROR ServerThread:132 - No album found with the requested title No album with this title in the MusicHub!
+2021-02-21 13:19:13 ERROR ServerThread:369 - Server exception: null
+2021-02-21 13:21:30 INFO  SimpleClient:31 - text sent to the server: send me the list of available commands!
+2021-02-21 13:21:30 INFO  SimpleClient:35 - Type h for available commands
+2021-02-21 13:21:33 INFO  ServerThread:47 - server received a choice:f
+2021-02-21 13:22:37 ERROR ServerThread:369 - Server exception: Connection reset
+2021-02-21 13:34:42 INFO  SimpleClient:31 - text sent to the server: send me the list of available commands!
+2021-02-21 13:34:42 INFO  SimpleClient:35 - Type h for available commands
+2021-02-21 13:34:44 INFO  ServerThread:47 - server received a choice:f
+2021-02-21 13:35:15 ERROR ServerThread:144 - No Song found with the requested title 
+2021-02-21 13:35:15 ERROR SimpleClient:167 - No Song found with the requested title 
+2021-02-21 13:35:15 INFO  SimpleClient:517 - connexion killed with server 
+2021-02-21 13:35:15 ERROR ServerThread:370 - Server exception: Connection reset
+2021-02-21 13:35:21 INFO  SimpleClient:31 - text sent to the server: send me the list of available commands!
+2021-02-21 13:35:21 INFO  SimpleClient:35 - Type h for available commands
+2021-02-21 13:35:28 INFO  ServerThread:47 - server received a choice:f
+2021-02-21 13:42:04 INFO  ServerThread:107 - List of songs is sent successfully
+2021-02-21 13:42:19 INFO  ServerThread:107 - List of songs is sent successfully
+2021-02-21 13:53:23 INFO  SimpleClient:32 - text sent to the server: send me the list of available commands!
+2021-02-21 13:53:23 INFO  SimpleClient:36 - Type h for available commands
+2021-02-21 13:54:38 INFO  ServerThread:47 - server received a choice:d
+2021-02-21 13:54:51 INFO  ServerThread:107 - List of songs is sent successfully
+2021-02-21 13:54:56 ERROR ServerThread:377 - Server exception: java.util.LinkedList$ListItr
+2021-02-21 13:54:56 ERROR SimpleClient:510 - Error: writing aborted; java.io.NotSerializableException: java.util.LinkedList$ListItr
+2021-02-21 13:56:07 INFO  SimpleClient:32 - text sent to the server: send me the list of available commands!
+2021-02-21 13:56:07 INFO  SimpleClient:36 - Type h for available commands
+2021-02-21 13:56:10 INFO  ServerThread:47 - server received a choice:p
+2021-02-21 13:56:10 ERROR ServerThread:377 - Server exception: java.util.LinkedList$ListItr
+2021-02-21 13:56:10 ERROR SimpleClient:510 - Error: writing aborted; java.io.NotSerializableException: java.util.LinkedList$ListItr
+2021-02-21 13:56:34 INFO  SimpleClient:32 - text sent to the server: send me the list of available commands!
+2021-02-21 13:56:34 INFO  SimpleClient:36 - Type h for available commands
+2021-02-21 13:56:37 INFO  ServerThread:47 - server received a choice:p
+2021-02-21 13:56:37 ERROR ServerThread:377 - Server exception: java.util.LinkedList$ListItr
+2021-02-21 13:56:37 ERROR SimpleClient:510 - Error: writing aborted; java.io.NotSerializableException: java.util.LinkedList$ListItr
+2021-02-21 14:08:27 INFO  SimpleClient:32 - text sent to the server: send me the list of available commands!
+2021-02-21 14:08:27 INFO  SimpleClient:36 - Type h for available commands
+2021-02-21 14:08:31 INFO  ServerThread:47 - server received a choice:p
+2021-02-21 14:08:31 ERROR ServerThread:377 - Server exception: java.util.LinkedList$ListItr
+2021-02-21 14:08:31 ERROR SimpleClient:510 - Error: writing aborted; java.io.NotSerializableException: java.util.LinkedList$ListItr
+2021-02-21 14:23:37 INFO  SimpleClient:32 - text sent to the server: send me the list of available commands!
+2021-02-21 14:23:37 INFO  SimpleClient:36 - Type h for available commands
+2021-02-21 14:23:40 INFO  ServerThread:49 - server received a choice:p
+2021-02-21 14:24:16 INFO  SimpleClient:32 - text sent to the server: send me the list of available commands!
+2021-02-21 14:24:16 INFO  SimpleClient:36 - Type h for available commands
+2021-02-21 14:24:23 INFO  ServerThread:49 - server received a choice:t
+2021-02-21 14:24:23 INFO  ServerThread:67 - List of albums is sent successfully
+2021-02-21 14:26:00 INFO  SimpleClient:32 - text sent to the server: send me the list of available commands!
+2021-02-21 14:26:00 INFO  SimpleClient:36 - Type h for available commands
+2021-02-21 14:26:03 INFO  ServerThread:49 - server received a choice:p
+2021-02-21 14:26:56 ERROR SimpleClient:510 - Error: null
+2021-02-21 14:27:28 INFO  SimpleClient:32 - text sent to the server: send me the list of available commands!
+2021-02-21 14:27:28 INFO  SimpleClient:36 - Type h for available commands
+2021-02-21 14:27:32 INFO  ServerThread:49 - server received a choice:p
+2021-02-21 14:27:32 INFO  ServerThread:128 - [com.esiea.musichub.model.PlayList@719cb211, com.esiea.musichub.model.PlayList@694406a4]
+2021-02-21 14:27:32 INFO  ServerThread:130 - List of playlists is sent successfully
+2021-02-21 14:29:04 INFO  SimpleClient:32 - text sent to the server: send me the list of available commands!
+2021-02-21 14:29:04 INFO  SimpleClient:36 - Type h for available commands
+2021-02-21 14:29:07 INFO  ServerThread:49 - server received a choice:p
+2021-02-21 14:29:07 INFO  ServerThread:128 - java.util.LinkedList$ListItr@280a1515
+2021-02-21 14:29:07 INFO  ServerThread:130 - List of playlists is sent successfully
+2021-02-21 14:29:07 ERROR ServerThread:385 - Server exception: Broken pipe (Write failed)
+2021-02-21 14:29:07 ERROR ServerThread:394 - Broken pipe (Write failed)
+2021-02-21 14:39:18 INFO  SimpleClient:32 - text sent to the server: send me the list of available commands!
+2021-02-21 14:39:18 INFO  SimpleClient:36 - Type h for available commands
+2021-02-21 14:39:21 INFO  ServerThread:49 - server received a choice:p
+2021-02-21 14:39:21 INFO  ServerThread:128 - [my favourite songs, my third playlist]
+2021-02-21 14:39:21 INFO  ServerThread:130 - List of playlists is sent successfully
+2021-02-21 14:42:06 INFO  SimpleClient:32 - text sent to the server: send me the list of available commands!
+2021-02-21 14:42:06 INFO  SimpleClient:36 - Type h for available commands
+2021-02-21 14:42:09 INFO  ServerThread:49 - server received a choice:p
+2021-02-21 14:42:09 INFO  ServerThread:129 - List of playlists is sent successfully
+2021-02-21 14:43:08 ERROR ServerThread:384 - Server exception: null
+2021-02-21 14:43:12 INFO  SimpleClient:32 - text sent to the server: send me the list of available commands!
+2021-02-21 14:43:12 INFO  SimpleClient:36 - Type h for available commands
+2021-02-21 14:43:14 INFO  ServerThread:49 - server received a choice:p
+2021-02-21 14:43:14 INFO  ServerThread:129 - List of playlists is sent successfully
+2021-02-21 14:48:52 INFO  SimpleClient:32 - text sent to the server: send me the list of available commands!
+2021-02-21 14:48:52 INFO  SimpleClient:36 - Type h for available commands
+2021-02-21 14:49:04 INFO  ServerThread:49 - server received a choice:c
+2021-02-21 14:49:28 INFO  ServerThread:189 - Song created successfully
+2021-02-21 14:49:44 ERROR ServerThread:195 - For input string: "jhkhjk"
+2021-02-21 14:49:44 ERROR SimpleClient:230 - error when creating the song 
+2021-02-21 14:49:44 INFO  SimpleClient:531 - connexion killed with server 
+2021-02-21 14:49:44 ERROR ServerThread:384 - Server exception: Broken pipe (Write failed)
+2021-02-21 14:49:44 ERROR ServerThread:393 - Broken pipe (Write failed)
+2021-02-21 14:50:02 INFO  SimpleClient:32 - text sent to the server: send me the list of available commands!
+2021-02-21 14:50:02 INFO  SimpleClient:36 - Type h for available commands
+2021-02-21 14:50:06 INFO  ServerThread:49 - server received a choice:c
+2021-02-21 14:50:18 INFO  ServerThread:189 - Song created successfully
+2021-02-21 14:52:07 ERROR ServerThread:251 - Album hjgjhgjh not found!
+2021-02-21 14:52:07 INFO  ServerThread:257 - Song added to the album successfully
+2021-02-21 14:52:07 ERROR ServerThread:384 - Server exception: Connection reset
+2021-02-21 14:52:22 INFO  SimpleClient:32 - text sent to the server: send me the list of available commands!
+2021-02-21 14:52:22 INFO  SimpleClient:36 - Type h for available commands
+2021-02-21 14:52:37 INFO  ServerThread:49 - server received a choice:l
+2021-02-21 14:52:57 INFO  ServerThread:280 - Audiobook created successfully
+2021-02-21 14:53:52 INFO  ServerThread:334 - Playlist created successfully
+2021-02-21 14:54:03 INFO  ServerThread:129 - List of playlists is sent successfully
+2021-02-21 14:54:21 INFO  ServerThread:358 - Playlist deleted successfully
+2021-02-21 14:54:27 INFO  ServerThread:129 - List of playlists is sent successfully
+2021-02-21 17:15:51 INFO  SimpleClient:32 - text sent to the server: send me the list of available commands!
+2021-02-21 17:15:51 INFO  SimpleClient:36 - Type h for available commands
+2021-02-21 17:31:44 INFO  ServerThread:49 - server received a choice:t
+2021-02-21 17:31:44 INFO  ServerThread:67 - List of albums is sent successfully
+2021-02-21 17:41:06 INFO  SimpleClient:32 - text sent to the server: send me the list of available commands!
+2021-02-21 17:41:06 INFO  SimpleClient:36 - Type h for available commands
+2021-02-21 17:41:09 INFO  ServerThread:49 - server received a choice:d
+2021-02-21 17:41:50 INFO  ServerThread:109 - List of songs is sent successfully
+2021-02-21 17:44:22 INFO  ServerThread:49 - server received a choice:t
+2021-02-21 17:44:22 INFO  ServerThread:67 - List of albums is sent successfully
+2021-02-21 17:46:25 INFO  ServerThread:49 - server received a choice:t
+2021-02-21 17:46:25 INFO  ServerThread:67 - List of albums is sent successfully
+2021-02-21 17:47:20 INFO  ServerThread:49 - server received a choice:t
+2021-02-21 17:47:20 INFO  ServerThread:67 - List of albums is sent successfully
+2021-02-21 17:47:20 INFO  ServerThread:109 - List of songs is sent successfully
+2021-02-21 17:48:43 INFO  ServerThread:49 - server received a choice:t
+2021-02-21 17:48:43 INFO  ServerThread:67 - List of albums is sent successfully
+2021-02-21 17:48:43 INFO  ServerThread:109 - List of songs is sent successfully
+2021-02-21 17:49:52 INFO  ServerThread:49 - server received a choice:t
+2021-02-21 17:49:52 INFO  ServerThread:67 - List of albums is sent successfully
+2021-02-21 17:49:52 INFO  ServerThread:109 - List of songs is sent successfully
+2021-02-21 17:51:46 INFO  ServerThread:49 - server received a choice:t
+2021-02-21 17:51:46 INFO  ServerThread:67 - List of albums is sent successfully
+2021-02-21 17:51:46 INFO  ServerThread:109 - List of songs is sent successfully
+2021-02-21 17:57:31 INFO  ServerThread:49 - server received a choice:t
+2021-02-21 17:57:31 INFO  ServerThread:67 - List of albums is sent successfully
+2021-02-21 17:58:26 INFO  ServerThread:109 - List of songs is sent successfully
+2021-02-21 17:58:51 INFO  ServerThread:49 - server received a choice:t
+2021-02-21 17:58:51 INFO  ServerThread:67 - List of albums is sent successfully
+2021-02-21 17:58:51 INFO  ServerThread:109 - List of songs is sent successfully
+2021-02-21 18:00:15 INFO  ServerThread:49 - server received a choice:t
+2021-02-21 18:00:15 INFO  ServerThread:67 - List of albums is sent successfully
+2021-02-21 18:00:15 INFO  ServerThread:117 - List of audiobooks ordered by author is sent successfully
+2021-02-21 18:01:12 INFO  ServerThread:49 - server received a choice:t
+2021-02-21 18:01:12 INFO  ServerThread:67 - List of albums is sent successfully
+2021-02-21 18:01:12 INFO  ServerThread:117 - List of audiobooks ordered by author is sent successfully
+2021-02-21 18:01:12 INFO  ServerThread:109 - List of songs is sent successfully
+2021-02-21 18:04:48 INFO  ServerThread:49 - server received a choice:t
+2021-02-21 18:04:48 INFO  ServerThread:67 - List of albums is sent successfully
+2021-02-21 18:04:48 INFO  ServerThread:117 - List of audiobooks ordered by author is sent successfully
+2021-02-21 18:04:48 INFO  ServerThread:109 - List of songs is sent successfully
+2021-02-21 18:06:38 INFO  ServerThread:49 - server received a choice:t
+2021-02-21 18:06:38 INFO  ServerThread:67 - List of albums is sent successfully
+2021-02-21 18:06:38 INFO  ServerThread:117 - List of audiobooks ordered by author is sent successfully
+2021-02-21 18:06:59 INFO  ServerThread:49 - server received a choice:t
+2021-02-21 18:06:59 INFO  ServerThread:67 - List of albums is sent successfully
+2021-02-21 18:06:59 INFO  ServerThread:117 - List of audiobooks ordered by author is sent successfully
+2021-02-21 18:06:59 INFO  ServerThread:109 - List of songs is sent successfully
+2021-02-21 18:09:09 INFO  ServerThread:49 - server received a choice:t
+2021-02-21 18:09:09 INFO  ServerThread:67 - List of albums is sent successfully
+2021-02-21 18:09:09 INFO  ServerThread:117 - List of audiobooks ordered by author is sent successfully
+2021-02-21 18:09:09 INFO  ServerThread:109 - List of songs is sent successfully
+2021-02-21 20:02:19 INFO  SimpleClient:32 - text sent to the server: send me the list of available commands!
+2021-02-21 20:02:19 INFO  SimpleClient:36 - Type h for available commands
+2021-02-21 20:03:10 INFO  ServerThread:49 - server received a choice:t
+2021-02-21 20:03:10 INFO  ServerThread:67 - List of albums is sent successfully
+2021-02-21 20:03:39 INFO  ServerThread:88 - List of songs is sent successfully
+2021-02-21 20:04:39 INFO  ServerThread:109 - List of songs is sent successfully
+2021-02-21 20:04:53 INFO  ServerThread:117 - List of audiobooks ordered by author is sent successfully
+2021-02-21 20:05:08 INFO  ServerThread:129 - List of playlists is sent successfully
+2021-02-21 20:05:48 INFO  ServerThread:189 - Song created successfully
+2021-02-21 20:06:44 INFO  ServerThread:257 - Song added to the album successfully
+2021-02-21 20:08:11 ERROR ServerThread:158 - No Song found with the requested title 
+2021-02-21 20:08:11 ERROR SimpleClient:181 - No Song found with the requested title 
+2021-02-21 20:08:11 INFO  SimpleClient:531 - connexion killed with server 
+2021-02-21 20:08:11 ERROR ServerThread:384 - Server exception: Connection reset
+2021-02-21 20:08:26 INFO  SimpleClient:32 - text sent to the server: send me the list of available commands!
+2021-02-21 20:08:26 INFO  SimpleClient:36 - Type h for available commands
+2021-02-21 20:08:33 INFO  ServerThread:49 - server received a choice:f
+2021-02-21 20:10:37 INFO  SimpleClient:32 - text sent to the server: send me the list of available commands!
+2021-02-21 20:10:37 INFO  SimpleClient:36 - Type h for available commands
+2021-02-21 20:10:40 INFO  ServerThread:49 - server received a choice:f
+2021-02-21 20:11:50 INFO  SimpleClient:32 - text sent to the server: send me the list of available commands!
+2021-02-21 20:11:50 INFO  SimpleClient:36 - Type h for available commands
+2021-02-21 20:11:59 INFO  SimpleClient:531 - connexion killed with server 
+2021-02-21 20:11:59 INFO  ServerThread:49 - server received a choice:q
+2021-02-21 20:12:07 INFO  SimpleClient:32 - text sent to the server: send me the list of available commands!
+2021-02-21 20:12:07 INFO  SimpleClient:36 - Type h for available commands
+2021-02-21 20:13:01 INFO  ServerThread:49 - server received a choice:u
+2021-02-21 20:13:01 INFO  ServerThread:117 - List of audiobooks ordered by author is sent successfully
+2021-02-21 20:13:24 INFO  ServerThread:117 - List of audiobooks ordered by author is sent successfully
+2021-02-21 20:13:34 ERROR SimpleClient:87 - No album found with the requested title 
+2021-02-21 20:13:34 ERROR ServerThread:85 - No album found with the requested title No album with this title in the MusicHub!
+2021-02-21 20:13:34 INFO  ServerThread:88 - List of songs is sent successfully
+2021-02-21 20:13:34 INFO  SimpleClient:531 - connexion killed with server 
+2021-02-21 20:13:34 ERROR ServerThread:384 - Server exception: Broken pipe (Write failed)
+2021-02-21 20:13:34 ERROR ServerThread:393 - Broken pipe (Write failed)
+2021-02-21 20:19:43 INFO  ServerThread:49 - server received a choice:t
+2021-02-21 20:19:43 INFO  ServerThread:67 - List of albums is sent successfully
+2021-02-21 20:19:43 INFO  ServerThread:117 - List of audiobooks ordered by author is sent successfully
+2021-02-21 20:19:43 INFO  ServerThread:109 - List of songs is sent successfully
+2021-02-21 20:19:43 ERROR ServerThread:384 - Server exception: Connection reset
+2021-02-21 20:21:18 INFO  ServerThread:49 - server received a choice:t
+2021-02-21 20:21:18 INFO  ServerThread:67 - List of albums is sent successfully
+2021-02-21 20:21:18 INFO  ServerThread:117 - List of audiobooks ordered by author is sent successfully
+2021-02-21 20:21:18 INFO  ServerThread:109 - List of songs is sent successfully
+2021-02-21 20:22:32 INFO  ServerThread:49 - server received a choice:t
+2021-02-21 20:22:32 INFO  ServerThread:67 - List of albums is sent successfully
+2021-02-21 20:22:32 INFO  ServerThread:117 - List of audiobooks ordered by author is sent successfully
