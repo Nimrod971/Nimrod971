@@ -18,4 +18,4 @@ Plusieurs amériorations pourraient voir le jour tel que:
 
 
 
-Copyright © NDOUDI Nimrod
+Copyright © by NDOUDI Nimrod ✌️✌️
