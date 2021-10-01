@@ -1,0 +1,213 @@
+.infoProject {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    height: calc(100vh - 70px);
+    width: 25%;
+    background-color: var(--block-bck-color);
+    /* border-right: 1px solid var(--color-blue); */
+    box-shadow: 10px 0px 15px 5px rgba(0, 0, 0, 0.4);
+}
+
+stepProgress {
+    color: var(--color-blue);
+    text-transform: uppercase;
+    transition: 0.6s;
+}
+
+.noContent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    letter-spacing: 1px;
+    font-family: 'Poppins-Light';
+}
+
+.progressLine {
+    position: absolute;
+    left: calc(25% - 50px);
+    bottom: 0px;
+    width: 50px;
+    height: calc(100% - 70px);
+    border-right: 2px solid var(--color-blue);
+    animation-name: showProgressLine;
+    animation-duration: 2s;
+}
+
+.steps {
+    position: absolute;
+    top: 42%;
+    transform: translateY(-50%);
+    width: 100%;
+}
+
+.infoProject .step {
+    position: relative;
+    display: block;
+    text-decoration: none;
+    color: var(--txt-color);
+    font-size: 18px;
+    font-family: 'Poppins-Light';
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    transition: 0.6s;
+}
+
+.infoProject .step:hover {
+    background-color: var(--block-bck-color-hover);
+    background-color: var(--color-blue);
+    color: var(--txt-color-bis);
+}
+
+.infoProject .step:hover stepProgress {
+    color: var(--txt-color-bis);
+}
+
+.infoStep {
+    position: absolute;
+    top: 150px;
+    left: 30%;
+    width: 60%;
+    height: calc(100% - 200px);
+    background-color: var(--block-bck-color);
+    border-radius: 20px;
+}
+
+.infoStep .title {
+    padding: 10px 20px;
+    font-size: 35px;
+    border-bottom: 1px solid #fff;
+    font-family: 'Poppins-Light';
+}
+
+.infoStep form label{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: none;
+    border: none;
+    font-size: 40px;
+    color: var(--txt-color);
+    font-family: 'Poppins-Light';
+    text-align: center;
+    transition: 0.4s;
+    transform: scale(0.7);
+}
+
+.infoStep form label:hover,
+.infoStep form .confirmStep {
+    color: var(--txt-color-bis);
+    background-color: var(--color-blue);
+    cursor: crosshair;
+    transform: scale(1);
+}
+
+.infoStep .list {
+    position: relative;
+    width: 95%;
+    height: calc(95% - 74px);
+    margin: auto;
+}
+
+.infoStep .list .list-element {
+    margin: 30px 5px;
+    font-size: 18px;
+    font-family: 'Poppins-Light';
+}
+
+deadLine {
+    color: red;
+}
+
+.lastAction {
+    position: absolute;
+    z-index: 999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    height: 50%;
+    border-radius: 20px;
+    background-color: var(--block-bck-color);
+    box-shadow: 10px 10px 5px 5px rgba(0, 0, 0, 0.7);
+}
+
+.lastAction .title {
+    text-align: center;
+}
+
+.lastAction form {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 75%;
+    height: 70%;
+}
+
+.lastAction form input[type="text"] {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: block;
+    text-align: center;
+    width: 33%;
+    height: 40px;
+    border-radius: 40px;
+    background: none;
+    border: 1px solid var(--color-blue);
+    color: var(--txt-color);
+    text-transform: uppercase;
+    font-size: 18px;
+    transition: 0.4s;
+}
+
+.lastAction form input[type="submit"] {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: block;
+    text-align: center;
+    width: 33%;
+    height: 40px;
+    border-radius: 40px;
+    background: none;
+    border: 1px solid var(--color-blue);
+    color: var(--txt-color);
+    text-transform: uppercase;
+    font-size: 18px;
+    transition: 0.4s;
+    background-color: var(--color-blue);
+    color: var(--txt-color-bis);
+}
+
+.lastAction form input:hover {
+    width: 40%;
+}
+
+.lastAction form textarea {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: none;
+    border: 1px solid var(--color-blue);
+    border-radius: 20px;
+    color: var(--txt-color);
+    font-size: 15px;
+    padding: 15px;
+    width: 70%;
+    height: 50%;
+    font-family: 'Poppins-Light';
+}

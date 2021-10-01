@@ -1,0 +1,277 @@
+@import url('../keyframes.css');
+
+.selectProject {
+    position: absolute;
+    width: 95%;
+    height: 80vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.column {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 50%;
+}
+
+.project {
+    position: relative;
+    /* border: 3px solid var(--block-bck-color); */
+    background-color: var(--block-bck-color);
+    border: 1px solid transparent;
+    margin: 5px;
+    border-radius: 30px;
+    transition: 0.4s;
+    overflow:hidden;
+    transform: scale(0.8);
+    animation-name: showProjects;
+    animation-duration: 1s;
+}
+
+.project:hover {
+    background-color: var(--block-bck-color-hover);
+    box-shadow: 20px 20px 15px 5px rgba(0, 0, 0, 0.7);
+    border-color: var(--color-blue);
+    transform: scale(1);
+}
+
+.btn-project {
+    transform: scale(0.8);
+}
+
+add {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    font-size: 190px;
+    transition: 0.4s;
+}
+
+txt {
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    font-size: 70px;
+}
+
+.btn-project:hover {
+    transform: scale(1);
+    color: var(--color-blue);
+}
+
+.btn-project:hover add{
+    transform: translate(-50%, -50%) rotate(90deg);
+}
+
+.project .jacket {
+    position: relative;
+    float: left;
+    width: 35%;
+    height: 90%;
+    margin: auto;
+}
+
+.project .jacket img {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 90%;
+}
+
+.project .jacket .unknow {
+    font-size: 200px;
+    text-align: center;
+    font-family: 'Lato-Light';
+}
+
+.project .mark {
+    position: absolute;
+    top: 22px;
+    right: 30px;
+    font-size: 25px;
+}
+
+.project .informations {
+    float: right;
+    width: 65%;
+    height: 100%;
+    font-family: 'Poppins';
+}
+
+.project .leftSide {
+    float: left;
+    width: 40%;
+}
+
+.project .rightSide {
+    float: right;
+    width: 60%;
+}
+
+.project .subtitle {
+    font-size: 20px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Poppins-Light';
+    color: var(--color-blue);
+}
+
+.project .member , .project .follower{
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.selectProject .title {
+    text-align: left;
+    font-size: 28px;
+    padding: 20px;
+    text-transform: none;
+    border-bottom: 1px solid var(--color-blue);
+    font-family: 'Poppins-Light';
+}
+
+.selectProject .selectMenu {
+    position: relative;
+    display: block;
+    width: 90%;
+    margin: 5% auto;
+    height: 50%;
+}
+
+.selectProject .selectMenu a {
+    display: block;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 20px;
+    font-family: 'Poppins-Light';
+    transition: 0.4s;
+    border-radius: 50px;
+    margin-top: 20px;
+    width: 50%;
+}
+
+.selectProject .selectMenu a:hover {
+    color: var(--block-bck-color);
+    background-color: var(--txt-color);
+    width: 100%;
+}
+
+.addProject {
+    opacity: 0;
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    height: 70vh;
+    background-color: var(--block-bck-color);
+    border-radius: 20px;
+    border: 1px solid var(--color-blue);
+}
+
+.addProject .title {
+    font-size: 28px;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid var(--color-blue);
+}
+
+.addProject form {
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    top: 44%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 75%;
+    height: 50%;
+}
+
+.addProject form input,
+.addProject form select,
+.addProject form select option {
+    display: block;
+    position: relative;
+    margin-top: 15px;
+    margin-left: 15px;
+    background-color: var(--block-bck-color);
+    color: var(--txt-color);
+    font-family: 'Poppins-Light';
+    /* width: 40%; */
+    text-align: left;
+    padding: 10px 20px;
+    border: 1px solid var(--color-blue);
+    border-radius: 50px;
+}
+
+.addProject form select option {
+    border: 1px solid var(--block-bck-color);
+    text-transform: uppercase;
+}
+
+.addProject form textarea {
+    background-color: var(--block-bck-color-hover);
+    border-radius: 20px;
+    font-family: 'Poppins-Light';
+    color: var(--txt-color);
+    border: 1px solid var(--color-blue);
+    margin-top: 15px;
+    padding: 15px;
+    width: 95%;
+    margin-left: 5%;
+}
+
+.addProject form input[type="submit"] {
+    width: 250px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: var(--color-blue);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.4s;
+}
+
+.addProject form input[type="submit"]:hover {
+    width: 350px;
+    letter-spacing: 5px;
+}
+
+.addProject form select:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 30px;
+    width: 10px;
+    height: 100%;
+    background-color: green;
+    z-index: 999;
+}
+
+.clsMenu {
+    position: absolute;
+    width: 30px
+    top: 50px;
+    right: 10px;
+    font-size: 60px;
+    outline: none;
+    transform: translateY(-10px) rotate(45deg) scale(0.5);
+    transition: 0.4s;
+}
+
+.clsMenu:hover {
+    outline: none;
+    transform: translateY(-10px) rotate(135deg) scale(1);
+    color: var(--color-blue);
+}

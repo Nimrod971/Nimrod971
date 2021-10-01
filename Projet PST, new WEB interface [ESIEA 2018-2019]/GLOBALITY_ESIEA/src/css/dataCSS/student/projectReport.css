@@ -1,0 +1,113 @@
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 95%;
+    height: calc(80vh - 60px);
+    overflow: auto;
+    /* border: 1px solid white; */
+}
+
+.main .container {
+    position: relative;
+    float: left;
+    background-color: var(--block-bck-color);
+    border-radius: 20px;
+    width: 95%;
+    height: 100%;
+    height: 72vh;
+    margin-bottom: 20px;
+	overflow: hidden;
+}
+
+.main .container .title {
+    font-size: 20px;
+    height: 60px;
+    line-height: 60px;
+    width: 100%;
+    border-bottom: 1px solid var(--color-blue);
+    text-align: center;
+    font-family: 'Poppins-Light';
+	overflow: hidden;
+}
+
+.main .container .description {
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translate(-50%);
+    height: 250px;
+    width: 95%;
+    font-size: 18px;
+    font-family: 'Poppins-Light';
+}
+
+.main .container .deadLine {
+    position: absolute;
+    top: 350px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 95%;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Poppins';
+    color: red;
+    border: 1px solid red;
+    border-radius: 50px;
+}
+
+.main .container form {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 95%;
+    height: 120px;
+    border-top: 1px solid var(--txt-color);
+}
+
+.main .container form label {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    text-align: center;
+    font-family: 'Poppins';
+	overflow: hidden;
+    transition: 0.4s;
+}
+
+.main .container form label:hover {
+    letter-spacing: 2px;
+    color: var(--color-blue);
+}
+
+.main .container form input[type="submit"] {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 40px;
+    font-size: 16px;
+    border: none;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: 'Poppins';
+    background-color: var(--color-blue);
+    color: var(--txt-color-bis);
+	overflow: hidden;
+    transition: 0.4s;
+}
+
+.main .container form input[type="submit"]:hover {
+    letter-spacing: 3px;
+    width: 75%;
+}

@@ -1,0 +1,342 @@
+.block {
+    position: absolute;
+    top: 50%;
+    right: 20%;
+    width: 400px;
+    height: 70vh;
+    transform: translate(50%, -50%);
+    background-color: var(--block-bck-color);
+    border-radius: 20px;
+    box-shadow: 12px 12px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.block .title {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom: 1px solid var(--color-blue);
+    color: var(--color-blue);
+}
+
+.block .information {
+    margin: 20px 20px;
+    font-family: 'Poppins-Light';
+    letter-spacing: 2px;
+}
+
+.block .information .subtitle {
+    display: inline-block;
+    float: left;
+    font-size: 15px;
+}
+
+.block .information output {
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.block button {
+    position: absolute;
+    bottom: 30px;
+    left: 30%;
+    transform: translateX(-50%);
+    width: 125px;
+    height: 40px;
+    font-size: 15px;
+    color: var(--txt-color-bis);
+    background-color: var(--color-blue);
+    border-radius: 20px;
+    font-family: 'Poppins Light';
+    text-transform: uppercase;
+    text-align: center;
+    transition: 0.4s;
+}
+
+.block button:hover {
+    width: 170px;
+}
+
+.linkTo {
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.modifEvent {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--block-bck-color);
+    width: 400px;
+    height: 60vh;
+    border-radius: 20px;
+    border: 1px solid var(--color-blue);
+    box-shadow: 12px 12px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.modifEvent .title {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom: 1px solid var(--color-blue);
+    color: var(--color-blue);
+}
+
+.modifEvent .inputBox {
+    position: relative;
+    display: inline-block;
+	animation-name: showInput;
+	animation-duration: 2s;
+    margin: 20px auto;
+}
+
+.modifEvent .inputBox .subtitle {
+    font-size: 20px;
+    text-align: center;
+}
+
+.selectType {
+    background-color: var(--block-bck-color);
+    color: var(--txt-color);
+    font-family: 'Poppins-Light';
+    border: none;
+    outline: none;
+}
+
+.inputBox input {
+    width: 60%;
+    margin-left: 15%;
+    padding: 10px 0;
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-family: 'Poppins-Light';
+    color: var(--txt-color);
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid var(--txt-color);
+    outline: none;
+    background: transparent;
+	outline-color: transparent;
+	transition: 0.3s;
+}
+
+.inputBox input:focus,
+.inputBox input:valid {
+	border-color: var(--color-blue);
+    color: var(--color-blue);
+}
+
+input[type = "submit"] {
+    position: absolute;
+    bottom: 30px;
+    background: transparent;
+    border: none;
+    outline: none;
+	letter-spacing: 3px;
+	font-family: 'Poppins';
+    color: var(--txt-color-bis);
+    background: var(--color-blue);
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all 0.5s ease-out;
+	animation-name: showButton;
+	animation-duration: 3s;
+}
+
+input[type = "submit"]:hover {
+    padding: 10px 40px;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    margin: auto;
+    animation-name: showInput;
+    animation-duration: 2s;
+    background-color: var(--block-bck-color-hover);
+    color: var(--txt-color);
+    padding: 10px;
+    font-family: 'Poppins-Light';
+}
+
+textarea:focus,
+textarea:valid {
+    color: var(--color-blue);
+}
+
+.clsMenu {
+    position: absolute;
+    width: 30px
+    bottom: 0px;
+    right: 30px;
+    font-size: 60px;
+    outline: none;
+    transform: rotate(45deg) scale(0.5);
+    transition: 0.4s;
+}
+
+.clsMenu:hover {
+    outline: none;
+    transform: rotate(135deg) scale(1);
+    color: var(--color-blue);
+}
+
+.deleteBtn {
+    position: absolute;
+    bottom: 30px;
+    left: 75%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+    background-color: red;
+    border-radius: 20px;
+    font-family: 'Poppins Light';
+    text-transform: uppercase;
+    text-align: center;
+    transition: 0.4s;
+}
+
+.blockLink {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    width: 50%;
+    height: 70vh;
+    transform: translate(-50%, -50%);
+    background-color: var(--block-bck-color);
+    border-radius: 20px;
+    box-shadow: 12px 12px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.blockLink .title {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom: 1px solid var(--color-blue);
+    color: var(--color-blue);
+}
+
+.blockLink .listLink {
+    position: absolute;
+    width: 100%;
+    height: calc(100% - 50px);
+    margin-top: 20px;
+}
+
+.blockLink .listLink a {
+    position: relative;
+    height: 60px;
+    width: 100%;
+    line-height: 60px;
+    margin-left: 60px;
+    text-decoration: none;
+    color: var(--txt-color);
+    text-transform: uppercase;
+}
+
+.blockLink .listLink ul li a {
+    color: var(--txt-color-bis);
+    font-family: 'Poppins-Light';
+    font-size: 20px;
+    letter-spacing: 5px;
+    text-decoration: none;
+    margin-top: 25px;
+    padding: 10px 10px;
+    background-color: var(--color-blue);
+    transition: all 0.3s ease;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.blockLink .listLink ul li a:hover {
+    background-color: green;
+    color: var(--txt-color);
+    padding: 10px 30px;
+    cursor: crosshair;
+    border-radius: 50px;
+}
+
+.blockLink .listLink aside {
+    display: block;
+    float: right;
+    margin-right: 50px;
+    text-transform: none;
+    font-family: 'Poppins-Light';
+    font-size: 20px;
+    letter-spacing: 5px;
+    height: 60px;
+    line-height: 60px;
+}
+
+.newEvent {
+    display: none;
+    opacity: 0;
+    position: absolute;
+    z-index: 99;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    background-color: var(--block-bck-color-hover);
+    width: 25%;
+}
+
+.newEvent .title {
+    margin-top: 30px;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+.newEvent .inputBox {
+    position: relative;
+    display: block;
+	animation-name: showInput;
+	animation-duration: 2s;
+    margin: 20px auto;
+}
+
+.newEvent .inputBox .subtitle {
+    font-size: 20px;
+    text-align: center;
+}
+
+.addNewEvent {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 1px solid var(--color-blue);
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 5px;
+    font-family: 'Poppins-Light';
+    padding: 10px 10px;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+
+.addNewEvent:hover {
+    padding: 10px 50px;
+    color: var(--color-blue);
+}

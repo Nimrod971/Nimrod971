@@ -1,0 +1,293 @@
+@import url('../fonts/fonts.css');
+@import url('themes/colorDefault.css');
+@import url('keyframes.css');
+
+* {
+	box-sizing: border-box;
+	outline: none;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: "Poppins-Thin";
+	color: var(--txt-color);
+	background-color: var(--main-bck-color);
+	cursor: crosshair;
+}
+
+a {
+	cursor: crosshair;
+	outline: none;
+	text-decoration: none;
+	color: var(--txt-color);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+	padding: 0;
+}
+
+blue {
+	color: var(--color-blue);
+}
+
+red {
+	color: red;
+}
+
+button {
+	background: none;
+	border: none;
+	outline: none;
+	font-family: 'Poppins-Thin';
+	cursor: crosshair;
+	margin: 0;
+	position: relative;
+	color: var(--txt-color);
+}
+
+.null {
+	margin: 0;
+	padding: 0;
+	font-size: 0px;
+	border: none;
+	outline: none;
+	background: none;
+}
+
+.header {
+    position: relative;
+	z-index: 99;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+	line-height: 70px;
+    background-color: var(--block-bck-color);
+	box-shadow: 10px 12px 24px 0px rgba(0,0,0,0.2);
+	overflow: hidden;
+}
+
+.header-content {
+    width: 90%;
+    margin: auto;
+}
+
+.header-title {
+    float: left;
+    text-transform: uppercase;
+    font-size: 40px;
+    letter-spacing: 4px;
+	text-decoration: none;
+	height: 70px;
+	color: var(--txt-color);
+	line-height: 70px;
+	overflow: hidden;
+}
+
+.header-menu {
+    float: right;
+    display: inline-block;
+	overflow: hidden;
+}
+
+.link {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 30px;
+	height: 70px;
+    letter-spacing: 2px;
+    margin-left: 20px;
+    color: var(--txt-color);
+    transition: 0.3s;
+}
+
+.link:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    border: 1px solid transparent;
+    transition: 0.3s;
+}
+
+.link:hover {
+    color: var(--color-blue);
+}
+
+.link:hover:before {
+    width: 100%;
+    border-color: var(--color-blue);
+}
+
+.bigTitle {
+    position: absolute;
+    top: 40%;
+    left: -1%;
+    transform: rotate(-90deg);
+    font-size: 75px;
+    text-transform: uppercase;
+    color: var(--txt-color);
+    letter-spacing: 20px;
+}
+
+.lineBigTitle {
+    position: fixed;
+    left: 15%;
+    height: 100%;
+    border: 1px solid var(--txt-color);
+}
+
+.returnMenu {
+	position: fixed;
+	bottom: 25px;
+	left: 25px;
+	font-size: 40px;
+	color: var(--txt-color);
+	border: 1px solid transparent;
+	padding: 5px 15px;
+	transition: 0.8s;
+	z-index: 999;
+	border-radius: 50% 50%;
+	transform: rotate(90deg);
+
+}
+
+.returnMenu:hover {
+	background-color: var(--block-bck-color);
+	box-shadow: 10px 12px 24px 0px rgba(0,0,0,0.2);
+	border-color: var(--color-blue);
+	transform: rotate(-90deg);
+}
+
+.MsgAlert {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300px;
+    height: 150px;
+    transform: translate(-50%, -50%);
+    background-color: var(--color-blue);
+    color: var(--txt-color-bis);
+    z-index: 9999;
+    border-radius: 20px;
+}
+
+.MsgAlert .title {
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid var(--txt-color-bis);
+}
+
+.MsgAlert p {
+    text-align: center;
+    font-family: 'Poppins';
+    color: var(--txt-color-bis);
+}
+
+.alertMessage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: 50vh;
+    background-color: var(--block-bck-color);
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.alertMessage .title {
+    margin: 0;
+    padding: 0px;
+	padding-left: 30px;
+    height: 70px;
+    line-height: 70px;
+    border-bottom: 1px solid red;
+    color: red;
+}
+
+.alertMessage .message {
+    font-family: 'Poppins-Light';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+
+.alertMessage .message a {
+    position: absolute;
+    bottom: -100px;
+    left: 50%;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    text-decoration: none;
+    color: var(--txt-color);
+    background-color: var(--color-blue);
+    border-radius: 50px;
+    transition: 0.5s;
+}
+
+.alertMessage .message a:hover {
+    padding: 10px 40px;
+    letter-spacing: 4px;
+}
+
+red {
+    color: red;
+}
+
+.message {
+    position: absolute;
+    top: 70px;
+    color: red;
+    font-size: 20px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-family: 'Poppins-Light';
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+  transition: 0.5s;
+}
+
+::-webkit-scrollbar-track-piece {
+    background-color: var(--block-bck-color);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    background-color: var(--txt-color);
+    transition: 0.5s;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--color-blue);
+}
+
+::-webkit-scrollbar-corner  {
+    background-color: var(--color-blue);
+    border-radius: 30px;
+}

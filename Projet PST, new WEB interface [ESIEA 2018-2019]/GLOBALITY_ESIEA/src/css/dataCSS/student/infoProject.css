@@ -1,0 +1,353 @@
+@import url('../keyframes.css');
+
+.menuInformation {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: calc(100vh - 70px - 160px);
+    background-color: var(--block-bck-color);
+    border-radius: 20px;
+    box-shadow: 10px 0px 15px 5px rgba(0, 0, 0, 0.4);
+    border: 1px solid var(--color-blue);
+    padding: 20px;
+    overflow: hidden;
+    z-index: 99;
+}
+
+.menuInformation .jacket {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 250px;
+    height: 275px;
+    /* border: 1px solid white; */
+}
+
+.menuInformation .jacket .image {
+    position: absolute;
+    width: 200px;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.menuInformation .jacket .deleteLogo input[type="submit"]{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Poppins-Light';
+    z-index: 99;
+    border: none;
+    color: var(--txt-color);
+    text-transform: uppercase;
+    width: 200px;
+    height: 30px;
+    margin: 30px auto;
+    margin: auto;
+    border-radius: 50px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background-color: red;
+    transition: 0.3s;
+}
+
+.menuInformation .jacket .deleteLogo input[type="submit"]:hover{
+    width: 250px;
+}
+
+.menuInformation .jacket .formulaire {
+    position: relative;
+    width: 300px;
+    height: 250px;
+    padding: 10px;
+    border: 1px solid var(--txt-color);
+    border-radius: 50px;
+}
+
+.menuInformation .jacket .formulaire input[type="submit"] {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
+    color: var(--txt-color);
+    text-transform: uppercase;
+    width: 100px;
+    height: 40px;
+    margin: 30px auto;
+    border-radius: 50px;
+    font-size: 15px;
+    background-color: var(--color-blue);
+    transition: 0.3s;
+}
+
+.menuInformation .jacket .formulaire input[type="submit"]:hover {
+    width: 200px;
+}
+
+.menuInformation .infoFix {
+    position: absolute;
+    top: 60%;
+    left: 40px;
+    width: 300px;
+    height: 140px;
+    overflow: hidden;
+}
+
+.menuInformation .infoFix .description {
+    margin: 0;
+    text-align: left;
+    width: 100%;
+}
+
+.menuInformation .deleteProject {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    width: 300px;
+    height: 40px;
+}
+
+.menuInformation .deleteProject .input-deleteProject {
+    display: none;
+}
+
+.menuInformation .deleteProject .label-deleteProject {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Poppins-Light';
+    text-transform: uppercase;
+    height: 30px;
+    line-height: 30px;
+    width: 250px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background-color: red;
+    border-radius: 50px;
+    text-align: center;
+    transition: 0.4s;
+}
+
+.menuInformation .deleteProject .label-deleteProject:hover {
+    width: 300px;
+}
+
+.logoPST {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--color-blue);
+    font-family: 'Poppins-Light';
+    font-size: 16px;
+    letter-spacing: 3px;
+    transition: 0.3s;
+}
+.logoPST:hover {
+    letter-spacing: 5px;
+}
+
+.input-logoPST {
+    display: none;
+}
+
+.menuInformation .subtitle {
+    font-size: 15px;
+    font-family: 'Poppins-Light';
+    text-transform: uppercase;
+}
+
+.menuInformation .description {
+    font-size: 15px;
+    font-family: 'Poppins-Light';
+}
+
+.menuInformation .follower {
+    text-transform: uppercase;
+    font-family: 'Poppins-Light';
+    letter-spacing: 3px;
+}
+
+.menuInformation .mark {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size: 30px;
+}
+
+.menuInformation .informations {
+    position: absolute;
+    width: calc(90% - 200px);
+    height: 95%;
+    top: 30px;
+    right: 30px;
+    float: right;
+    display: inline-block;
+    font-family: 'Poppins-Light';
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    /* border: 1px solid white; */
+}
+
+.menuInformation .informations .subtitle {
+    margin: auto;
+    text-align: center;
+}
+
+.menuInformation .informations input {
+    display: block;
+    background: none;
+    border: none;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--txt-color);
+    border: 1px solid var(--color-blue);
+    border-radius: 50px;
+    padding: 7px 10px;
+    width: 200px;
+    margin: 15px auto;
+    transition: 0.4s;
+}
+
+.menuInformation .informations input:hover,
+.menuInformation .informations input:focus {
+    background-color: var(--color-blue);
+    color: var(--txt-color-bis);
+    width: 300px;
+}
+
+.menuInformation .informations input[type="submit"] {
+    position: relative;
+    width: 100px;
+    height: 40px;
+    margin: 30px auto;
+    border-radius: 50px;
+    font-size: 15px;
+    /* transform: translateX(-50%); */
+    background-color: var(--color-blue);
+    color: var(--txt-color-bis);
+}
+
+.menuInformation .informations input[type="submit"]:hover {
+    width: 200px;
+    /* transform: translateX(-50%); */
+}
+
+.menuInformation .informations textarea {
+    display: block;
+    background: none;
+    border: none;
+    color: var(--txt-color);
+    border: 1px solid var(--color-blue);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 15px auto;
+    width: 300px;
+    height: 100px;
+    transition: 0.4s;
+    overflow: auto;
+}
+
+.menuInformation .informations textarea:hover,
+.menuInformation .informations textarea:focus {
+    width: 350px;
+    background-color: var(--color-blue);
+    color: var(--txt-color-bis);
+}
+
+.clsMenu {
+    position: absolute;
+    z-index: 99;
+    top: 20px;
+    right: 20px;
+    font-size: 60px;
+    outline: none;
+    transform: rotate(45deg) scale(0.5);
+    transition: 0.4s;
+}
+
+.clsMenu:hover {
+    outline: none;
+    transform: rotate(135deg) scale(1);
+    color: var(--color-blue);
+}
+
+.titleProject {
+    font-size: 35px;
+    letter-spacing: 5px;
+    color: var(--color-blue);
+}
+
+
+.menu {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: 40vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.menu .category {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    transition: 0.3s;
+    margin: 10px;
+}
+
+.menu .category i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 150px;
+    transition: 0.5s;
+}
+
+.menu .category .subtitle {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: 'Poppins-Light';
+    transform: translate(-50%, -50%) scale(0);
+    transition: 0.5s;
+}
+
+.menu .category:hover {
+    color: var(--color-blue);
+    background-color: var(--block-bck-color);
+    box-shadow: 10px 10px 15px 5px rgba(0, 0, 0, 0.7);
+}
+
+.menu .category:hover i {
+    top: 30%;
+    font-size: 100px;
+}
+
+.menu .category:hover .reverse {
+    transform: translate(-50%, -50%) rotate(90deg);
+}
+
+.menu .category:hover .subtitle {
+    bottom: 10%;
+    font-size: 25px;
+    transform: translate(-50%, -50%) scale(1);
+}

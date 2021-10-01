@@ -1,0 +1,324 @@
+@import url('../keyframes.css');
+
+.showFiles {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: 70vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.showFiles .part {
+    display: none;
+    position: relative;
+    width: 90%;
+    border-radius: 20px;
+    background-color: var(--block-bck-color);
+    box-shadow: 15px 15px 15px 5px rgba(0, 0, 0, 0.8);
+}
+
+.showFiles .part .title {
+    position: fixed;
+    width: 45%;
+    text-align: center;
+    border-bottom: 1px solid var(--color-blue);
+    background-color: var(--block-bck-color);
+    z-index: 99;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.showFiles .part form {
+    position: fixed;
+    left: 0;
+    top: 0px;
+    width: 45%;
+    height: 62px;
+    z-index: 99;
+}
+
+.showFiles .part form label {
+    position: absolute;
+    right: 20px;
+    height: 60px;
+    line-height: 60px;
+    border: none;
+    border-radius: 50%;
+    color: var(--color-blue);
+    font-size: 35px;
+    transform-origin: center;
+    transform: scale(0.75);
+    transition: 0.4s;
+    margin: 0;
+    padding: 0;
+}
+
+.showFiles .part form label:hover {
+    transform: scale(1);
+    color: red;
+}
+
+.showFiles .part .list {
+    position: absolute;
+    display: block;
+    top: 62px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Poppins-Light';
+    width: 95%;
+    height: calc(100% - 100px);
+    margin-top: 20px;
+    text-align: center;
+    overflow: auto;
+}
+
+.showFiles .part .list .element {
+    width: 95%;
+    display: inline-block;
+    height: 70px;
+    line-height: 70px;
+    transition: 0.4s;
+    transform: scale(0.8);
+    margin-top: 10px;
+    text-align: center;
+    transition: 0.4s;
+}
+
+.showFiles .part .list .element:hover {
+    color: var(--color-blue);
+    transform: scale(1);
+}
+
+.showFiles .part .list a {
+    margin: 2px;
+}
+
+.showFiles .part .list i {
+    left: 0;
+    position: absolute;
+    font-size: 60px;
+    float: left;
+    margin-right: 30px;
+    z-index: 999;
+}
+
+.showFiles .part .list .subtitle {
+    font-size: 25px;
+    margin-left: 10px;
+    transition: 0.4s;
+}
+
+.uploadFiles {
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 350px;
+    line-height: 350px;
+    text-align: center;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+
+.uploadFiles:hover {
+    background-color: var(--block-bck-color);
+    box-shadow: 15px 15px 15px 5px rgba(0, 0, 0, 0.8);
+    color: var(--color-blue);
+}
+
+.uploadFiles:hover input[type="submit"] {
+    color: var(--color-blue);
+}
+
+.uploadFiles input[type="file"] {
+    display: none;
+}
+
+.uploadFiles input[type="submit"] {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background: none;
+    border: none;
+    color: var(--txt-color);
+    width: 150px;
+    height: 50px;
+    font-family: 'Poppins-Light';
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.4s;
+}
+
+.uploadFiles label {
+    display: block;
+    font-size: 125px;
+}
+
+.pop {
+    position: absolute;
+    z-index: 99;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 75%;
+    height: 50vh;
+    background-color: var(--block-bck-color-hover);
+    box-shadow: 15px 15px 15px 5px rgba(0, 0, 0, 0.8);
+    border-radius: 20px;
+    animation-name: showNotif;
+    animation-duration: 1s;
+}
+
+.pop .title {
+    text-align: center;
+    border-bottom: 1px solid var(--color-blue);
+    height: 60px;
+    line-height: 60px;
+    font-size: 30px;
+}
+
+.pop .leftSide {
+    float: left;
+}
+
+.pop .rightSide {
+    float: right;
+}
+
+.pop .subtitle {
+    display: inline-block;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-family: 'Poppins-Light';
+    margin: 10px;
+}
+
+.pop form  {
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 75%;
+    height: 60%;
+}
+
+.pop .addFiles select {
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    height: 60px;
+    border-radius: 60px 0px 0px 60px;
+    line-height: 60px;
+    background-color: var(--color-blue);
+    border: none;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-family: 'Poppins-Light';
+    font-size: 16px;
+    color: var(--txt-color-bis);
+    transition: 0.4s;
+}
+
+.pop .addFiles select:hover {
+    font-size: 20px;
+}
+
+.pop .addFiles input[type="file"] {
+    display: none;
+}
+
+.pop .addFiles label {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 100;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Poppins-Light';
+    letter-spacing: 2px;
+    width: 40%;
+    height: 60px;
+    border-radius: 60px;
+    line-height: 60px;
+    border: 1px solid var(--color-blue);
+    color: var(--txt-color-bis);
+    background-color: var(--color-blue);
+    text-transform: uppercase;
+    transition: 0.4s;
+}
+
+.pop .addFiles label:hover {
+    letter-spacing: 5px;
+}
+
+.pop .addFiles input[type="submit"] {
+    position: absolute;
+    top: 50%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+    width: 42%;
+    height: 60px;
+    border-radius: 60px;
+    line-height: 60px;
+    letter-spacing: 5px;
+    background-color: var(--color-blue);
+    border: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Poppins-Light';
+    font-size: 16px;
+    color: var(--txt-color-bis);
+    transition: 0.4s;
+}
+
+.pop .addFiles input[type="submit"]:hover {
+    font-size: 20px;
+}
+
+.pop .deleteFiles {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    width: 95%;
+}
+
+.pop .deleteFiles label {
+    width: 100%;
+    transition: 0.4s;
+}
+
+.pop .deleteFiles label:hover {
+    color: red;
+}
+
+.clsMenu {
+    position: absolute;
+    z-index: 99;
+    top: 00px;
+    right: 20px;
+    font-size: 60px;
+    outline: none;
+    transform: translateY(-15px) rotate(45deg) scale(0.5);
+    transition: 0.4s;
+}
+
+.clsMenu:hover {
+    outline: none;
+    transform: translateY(-15px) rotate(135deg) scale(1);
+    color: var(--color-blue);
+}
+
+.information {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
