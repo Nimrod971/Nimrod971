@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<playlists>
+	<playlist>
+		<title>Playlist1</title>
+		<id>1-1-1-1-1</id>
+		<song>
+			<titlesong>Kousui</titlesong>
+			<artistsong>EITO</artistsong>
+			<durationsong>259</durationsong>
+			<idsong>1-0-0-1-1</idsong>
+			<contentssong>Kousui.mp3</contentssong>
+			<genresong>Genre.POP</genresong>
+		</song>
+		<song>
+			<titlesong>This is america</titlesong>
+			<artistsong>Childish Gambino</artistsong>
+			<durationsong>245</durationsong>
+			<idsong>1-0-0-1-1</idsong>
+			<contentssong>ThisIsAmerica.mp3</contentssong>
+			<genresong>Genre.RAP</genresong>
+		</song>
+		<book>
+			<titlebook>Krasavitse</titlebook>
+			<authorbook>Alexander Pushkin</authorbook>
+			<durationbook>135</durationbook>
+			<idbook>1-0-0-0-1</idbook>
+			<contentsbook>Krasavitse_ Audiobook_ Russian.mp3</contentsbook>
+			<languagebook>Langues.Russe</languagebook>
+			<categorybook>Je ne parle pas russe</categorybook>
+		</book>
+	</playlist>
+</playlists>
