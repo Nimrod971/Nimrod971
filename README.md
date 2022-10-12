@@ -2,7 +2,7 @@
 <!--- 
 - 👀 I’m interested in ... 
 ---> 
-- 🌱 I’m currently learning in at ESIEA Paris.
+- 🌱 I’m currently learning in at ESIEA Paris in double degree called Master's degree: Information and systems security in ESIEA (BAC+6)
 - 💞️ I’m looking to collaborate on IT or commercial sector .
 
 As you can see on my [Linknd](https://www.linkedin.com/in/nimrod-ndoudi), I realize some projects in differents sectors in my life.
