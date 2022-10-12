@@ -4,6 +4,8 @@ import sys
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import Select
+from webdriver_manager.chrome import ChromeDriverManager
+
 
 myDatetime = datetime.datetime.now()
 today = datetime.date.today()
@@ -58,7 +60,7 @@ date = date_party.strftime('%Y%m%d')
 # print(date)
 
 # create variable  for lunch driver
-driver = webdriver.Chrome()
+driver = webdriver.Chrome(ChromeDriverManager().install())
 
 # CACHER CREDENTIALS
 
@@ -169,5 +171,13 @@ for element in lieu_soiree:
             confirm = driver.find_element(By.ID, "btn-resa-etape-contenu")
             confirm.submit()
 
-                # AJOUTER ET VERIFIER UN MESSAGE DE FIN !!!!
+
+            confirm = driver.find_element(By.XPATH, "/ html / body / main / div / a")
+            confirm.submit()
+
+            confirm = driver.find_element(By.XPATH, "/ html / body / main / div / a")
+
+
+
+            # AJOUTER ET VERIFIER UN MESSAGE DE FIN !!!!
 
