@@ -6,7 +6,7 @@
 #define MAX 10
 #include<time.h>
 #include <unistd.h>
-#include <windows.h>
+///#include <windows.h>
 
 
 #if defined WIN32
@@ -172,13 +172,13 @@ void chemin(){
 }
 
 
-void crypt(char mdp[]){
+void Crypt(char mdp[]){
 
     unsigned char caractere[1000];
     int caractereActuel;
-    int n; //Incrémentation (caractère fichier)
-    int j; //Incrémentation (caractère clé)
-    int longPass; //Longueur de la clé
+    int n; //Incrï¿½mentation (caractï¿½re fichier)
+    int j; //Incrï¿½mentation (caractï¿½re clï¿½)
+    int longPass; //Longueur de la clï¿½
     longPass = strlen(mdp);
 
 
@@ -195,12 +195,12 @@ void crypt(char mdp[]){
     char line [1000 ];
 
      while(caractereActuel != EOF){
-            caractereActuel = fgetc(fichier); // On lit le caractère (1 octet)
+            caractereActuel = fgetc(fichier); // On lit le caractï¿½re (1 octet)
             if(caractereActuel > 31){
             caractereActuel += (mdp[j]-64);
             caractere[n] = caractereActuel; // On enregistre dans un tableau
             n++;
-            j = (j+1)%longPass; //Caractère suivant de la clé
+            j = (j+1)%longPass; //Caractï¿½re suivant de la clï¿½
             }
         }
 
@@ -212,7 +212,7 @@ void crypt(char mdp[]){
     fichier = fopen(emplacement, "w+"); //Ecriture (avec suppression)
     for(n=0;n<1000;n++){
         if(caractere[n] != 0){
-       fputc(caractere[n], fichier); //On ecrit chaque caractère
+       fputc(caractere[n], fichier); //On ecrit chaque caractï¿½re
        }
     }
     fclose(fichier);
@@ -227,9 +227,9 @@ void decrypt(char mdp[]){
 
     unsigned char caractere[1000];
     int caractereActuel;
-    int n; //Incrémentation (caractère fichier)
-    int j; //Incrémentation (caractère clé)
-    int longPass; //Longueur de la clé
+    int n; //Incrï¿½mentation (caractï¿½re fichier)
+    int j; //Incrï¿½mentation (caractï¿½re clï¿½)
+    int longPass; //Longueur de la clï¿½
 
 
     longPass = strlen(mdp);
@@ -248,12 +248,12 @@ void decrypt(char mdp[]){
     fichier = fopen(emplacement, "r+");
 
      while(caractereActuel != EOF){
-            caractereActuel = fgetc(fichier); // On lit le caractère (1 octet)
+            caractereActuel = fgetc(fichier); // On lit le caractï¿½re (1 octet)
             if(caractereActuel > 31){
             caractereActuel -= (mdp[j]-64);
             caractere[n] = caractereActuel; // On enregistre dans un tableau
             n++;
-            j = (j+1)%longPass; //Caractère suivant de la clé
+            j = (j+1)%longPass; //Caractï¿½re suivant de la clï¿½
             }
         }
     fclose(fichier);
@@ -264,7 +264,7 @@ void decrypt(char mdp[]){
     fichier = fopen(emplacement, "w+"); //Ecriture (avec suppression)
     for(n=0;n<1000;n++){
         if(caractere[n] != 0){
-       fputc(caractere[n], fichier); //On ecrit chaque caractère
+       fputc(caractere[n], fichier); //On ecrit chaque caractï¿½re
        }
     }
     fclose(fichier);
@@ -327,16 +327,16 @@ void cryptage()      // ENTRER DU MOT DE PASSE
 
 
                   while(i < 20){
-                        mdp[i] = toupper(mdp[i]); //Mettre clé en majuscule
+                        mdp[i] = toupper(mdp[i]); //Mettre clï¿½ en majuscule
                         i++;
                   }
-                  crypt(mdp);
+                  Crypt(mdp);
                   break;
             case 2:
                   printf("Rentrez le mot de passe : ");
                   scanf("%s", mdp);
                   while(i < 20){
-                        mdp[i] = toupper(mdp[i]); //Mettre clé en majuscule
+                        mdp[i] = toupper(mdp[i]); //Mettre clï¿½ en majuscule
                         i++;
                   }
                   decrypt(mdp);
@@ -369,7 +369,7 @@ struct File
 };
 
 void recup_mdp()
-{ // RÉCUPERE LES MOTS DE PASSE DANS LE FICHIER
+{ // Rï¿½CUPERE LES MOTS DE PASSE DANS LE FICHIER
  //   Element *nouveau = malloc(sizeof(*nouveau));
 //	nouveau->nombre = 0;
 //	nouveau->suivant= NULL;
@@ -395,7 +395,7 @@ char mot[1000];
 
 
 
-void stocker_mdp(File *file, char *nvNombre) //STOCKE LES MOTS DE PASSE DANS UNE LISTE CHAÎNÉE
+void stocker_mdp(File *file, char *nvNombre) //STOCKE LES MOTS DE PASSE DANS UNE LISTE CHAï¿½Nï¿½E
 {
 
     Element *nouveau = malloc(sizeof(*nouveau));
@@ -409,7 +409,7 @@ void stocker_mdp(File *file, char *nvNombre) //STOCKE LES MOTS DE PASSE DANS UNE
 
     if (file->premier != NULL) /* La file n'est pas vide */
     {
-        /* On se positionne à la fin de la file */
+        /* On se positionne ï¿½ la fin de la file */
         Element *elementActuel = file->premier;
 
         while (elementActuel->suivant != NULL)
@@ -420,7 +420,7 @@ void stocker_mdp(File *file, char *nvNombre) //STOCKE LES MOTS DE PASSE DANS UNE
 
         elementActuel->suivant = nouveau;
     }
-    else /* La file est vide, notre élément est le premier */
+    else /* La file est vide, notre ï¿½lï¿½ment est le premier */
     {
         file->premier = nouveau;
     }
@@ -474,9 +474,9 @@ void crypt_txt(char mdp[]){
 
     unsigned char caractere[1000];
     int caractereActuel;
-    int n; //Incrémentation (caractère fichier)
-    int j; //Incrémentation (caractère clé)
-    int longPass; //Longueur de la clé
+    int n; //Incrï¿½mentation (caractï¿½re fichier)
+    int j; //Incrï¿½mentation (caractï¿½re clï¿½)
+    int longPass; //Longueur de la clï¿½
     longPass = strlen(mdp);
 
     for(n=0;n<1000;n++){
@@ -491,12 +491,12 @@ void crypt_txt(char mdp[]){
     fichier = fopen("mdp.txt", "r");
 
      while(caractereActuel != EOF){
-            caractereActuel = fgetc(fichier); // On lit le caractère (1 octet)
+            caractereActuel = fgetc(fichier); // On lit le caractï¿½re (1 octet)
             if(caractereActuel > 31){
             caractereActuel += (mdp[j]-64);
             caractere[n] = caractereActuel; // On enregistre dans un tableau
             n++;
-            j = (j+1)%longPass; //Caractère suivant de la clé
+            j = (j+1)%longPass; //Caractï¿½re suivant de la clï¿½
             }
         }
     fclose(fichier);
@@ -507,7 +507,7 @@ void crypt_txt(char mdp[]){
     fichier = fopen("mdp.txt", "w+"); //Ecriture (avec suppression)
     for(n=0;n<1000;n++){
         if(caractere[n] != 0){
-       fputc(caractere[n], fichier); //On ecrit chaque caractère
+       fputc(caractere[n], fichier); //On ecrit chaque caractï¿½re
        }
     }
     fclose(fichier);
@@ -522,9 +522,9 @@ void decrypt_txt(char mdp[]){
 
     unsigned char caractere[1000];
     int caractereActuel;
-    int n; //Incrémentation (caractère fichier)
-    int j; //Incrémentation (caractère clé)
-    int longPass; //Longueur de la clé
+    int n; //Incrï¿½mentation (caractï¿½re fichier)
+    int j; //Incrï¿½mentation (caractï¿½re clï¿½)
+    int longPass; //Longueur de la clï¿½
 
     longPass = strlen(mdp);
     for(n=0;n<1000;n++){
@@ -542,12 +542,12 @@ void decrypt_txt(char mdp[]){
     fichier = fopen("mdp.txt", "r");
 
      while(caractereActuel != EOF){
-            caractereActuel = fgetc(fichier); // On lit le caractère (1 octet)
+            caractereActuel = fgetc(fichier); // On lit le caractï¿½re (1 octet)
             if(caractereActuel > 31){
             caractereActuel -= (mdp[j]-64);
             caractere[n] = caractereActuel; // On enregistre dans un tableau
             n++;
-            j = (j+1)%longPass; //Caractère suivant de la clé
+            j = (j+1)%longPass; //Caractï¿½re suivant de la clï¿½
             }
         }
     fclose(fichier);
@@ -558,7 +558,7 @@ void decrypt_txt(char mdp[]){
     fichier = fopen("mdp.txt", "w+"); //Ecriture (avec suppression)
     for(n=0;n<1000;n++){
         if(caractere[n] != 0){
-       fputc(caractere[n], fichier); //On ecrit chaque caractère
+       fputc(caractere[n], fichier); //On ecrit chaque caractï¿½re
        }
     }
     fclose(fichier);
@@ -704,30 +704,30 @@ void data ()
     FILE* fichier = NULL;
     int caractereActuel = 0;
     int TAILLE_MAX=1000;
-    char chaine[1000] = ""; // Chaîne vide de taille TAILLE_MAX
+    char chaine[1000] = ""; // Chaï¿½ne vide de taille TAILLE_MAX
 
 
     fichier = fopen("data.txt", "r");
 
     if (fichier != NULL)
     {
-        // Boucle de lecture des caractères un à un
+        // Boucle de lecture des caractï¿½res un ï¿½ un
        /* do
         {
-            caractereActuel = fgetc(fichier); // On lit le caractère
+            caractereActuel = fgetc(fichier); // On lit le caractï¿½re
             printf("%c", caractereActuel); // On l'affiche
 
 
 
-        } while (caractereActuel != EOF); // On continue tant que fgetc n'a pas retourné EOF (fin de fichier)
+        } while (caractereActuel != EOF); // On continue tant que fgetc n'a pas retournï¿½ EOF (fin de fichier)
         */
 
         int ligne= 1;
-       while (fgets(chaine, TAILLE_MAX, fichier) != NULL) // On lit le fichier tant qu'on ne reçoit pas d'erreur (NULL)
+       while (fgets(chaine, TAILLE_MAX, fichier) != NULL) // On lit le fichier tant qu'on ne reï¿½oit pas d'erreur (NULL)
         {
 
             printf("\n ligne %d :  ",ligne);
-            printf("%s", chaine); // On affiche la chaîne qu'on vient de lire
+            printf("%s", chaine); // On affiche la chaï¿½ne qu'on vient de lire
 
                   File* maFile2 = initialiser();
                   decrypt_txt(chaine);
